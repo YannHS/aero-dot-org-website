@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL: https://yannhs.github.io/aero-dot-org-website/
+baseURL: https://uoat.uottawa.xyz/
 # Your theme name
 theme: "dot-org-hugo-theme"
 # Title of your website (required).
