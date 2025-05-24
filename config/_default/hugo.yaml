@@ -1,4 +1,6 @@
 ######################## default configuration ####################
+# Base URL
+baseURL: https://yannhs.github.io/aero-dot-org-website/
 # Your theme name
 theme: "dot-org-hugo-theme"
 # Title of your website (required).
