@@ -1,6 +1,6 @@
 ######################## production configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL:
+baseURL: https://yannhs.github.io/aero-dot-org-website/
 googleAnalytics:
 enableRobotsTXT: true
 build:
