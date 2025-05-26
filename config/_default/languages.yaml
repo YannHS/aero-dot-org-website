@@ -4,59 +4,68 @@ en:
   ### copyright (markdown can be used) ###
   copyright: "Copyright &copy; {{< current_year >}} Aerospace Team. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)."
   title: "Aerospace Team"
+  email: asd
   params:
     description: "Site Description"
-    ### accessibility ###
-    accessibility:
-      skip_text: "Skip to content"
-      help_text: "Accessibility Statement"
-      help_url: "/example-page/"
+
     ### calls to action ###
     main_cta:
       text: "Join"
-      link: "/example-page/"
+      link: "/join/"
     footer_cta:
-      text: "Join us"
-      link: "/example-page/"
+      text: "Join"
+      link: "/join/"
     github_edit: "Edit this page on GitHub"
   ### example menu showing children ###
   menu:
     main:
     - identifier: "about"
       name: "About"
-      url: "/example-page/"
+      url: "/#"
       weight: 1
-    - identifier: "child-1"
-      name: "Example Child Page"
-      url: "/example-page/"
+    - identifier: "our-mission"
+      name: "Our Mission"
+      url: "/mission/"
       weight: 1
-      post: "Nulla consequat massa quis enim. Donec pede justo."
+      post: "Our team purpose."
       parent: "about"
-    - identifier: "child-2"
-      name: "Example Child Page"
-      url: "/example-page/"
+    - identifier: "meet-the-team"
+      name: "Meet The Team"
+      url: "/the-team/"
       weight: 2
-      post: "Aenean commodo ligula get dolor. Aenean massa."
+      post: "Learn more about who we are."
       parent: "about"
-    - identifier: "child-3"
-      name: "Example External page"
-      url: "https://cncf.io?ref=dot-org"
+    - identifier: "our-designs"
+      name: "Our Designs"
+      url: "/designs/"
       weight: 3
-      post: "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo."
+      post: "See current and past aircraft."
       parent: "about"
-    - identifier: "demo-page"
-      name: "Demo Page"
-      url: "/demo-page/"
+
+    - identifier: "contact"
+      name: "Contact Us"
+      url: "/contact/"
       weight: 2
-    - identifier: "faq"
-      name: "FAQs"
-      url: "/faq/"
+      
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
       weight: 3
-    - identifier: "blog"
-      name: "Blog"
-      url: "/blog/"
+
+    - identifier: "sponsors"
+      name: "Sponsors"
+      url: "/#"
       weight: 4
-    - identifier: "example"
-      name: "External"
-      url: "https://cncf.io?ref=dot-org"
-      weight: 5
+    - identifier: "our-sponsors"
+      name: "Our Sponsors"
+      url: "/sponsors/"
+      weight: 1
+      post: "See who is generously sponsoring us."
+      parent: "sponsors"
+    - identifier: "sponsor-us"
+      name: "Sponsor Us"
+      url: "/sponsor-us/"
+      weight: 2
+      post: "Become a sponsor."
+      parent: "sponsors"
+

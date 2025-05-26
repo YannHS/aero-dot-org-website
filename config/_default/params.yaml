@@ -1,15 +1,16 @@
 ######################## custom scripts & styles ####################
 
 # Add custom assets relative to /static or via https
-logo_on_white: "/img/logo-b.svg"
-logo_on_black: "/img/logo-w.svg"
+logo_on_white: "/img/UOA-w.png"
+logo_on_black: "/img/UOA-b.png"
 custom_js: []
 custom_css: []
 
 ######################## custom config ####################
 
 ### default social share image (can also be set per lang) ###
-images: ["/img/social-share.png"]
+### 1200 × 600 ###
+images: ["/img/plane1.jpg"]
 
 github:
   repo_url: "https://github.com/username/repo/blob/master"
@@ -38,3 +39,6 @@ social_links:
 sticky_header: true
 # Enable search in header UI
 show_search: false
+
+email: uoat@uottawa.xyz
+address: 1234 Clown Avenue, Ottawa, Ontario, Canada

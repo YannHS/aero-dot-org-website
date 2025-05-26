@@ -1,13 +1,13 @@
 ---
-title: Dot Org Theme Demo
-description: This is the demo site for Dot Org Theme. The title description and images front matter is required for meta og content.
+title: uOAT
+description: University of Ottawa Aerospace Team
 showHeader: false
 showSubpages: false
 ---
 
 {{< columns count=2 >}}
 {{< column >}}
-# We Fucking Build Planes!
+# We Build Planes!
 
 {{< intro >}}
 **Our Mission:** Ever since we, **The Aerospace Team** Fucking **FAILED** at SAE, we wanted to build a better plane. This website will help us gain *valuable* sponsor money to better fund spektrum reveivers and carbon-fiber plingus.
@@ -48,19 +48,19 @@ Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguiqu
 #### Join Us Today
 In Cumanum salutandi causa uterque venisset
 {{< spacer 5 >}}
-{{< button link="/#" text="Join Us" >}}
+{{< button link="/join" text="Join Us" >}}
 {{< /card >}}
 {{< card >}}
 #### Talk to us
 pauca primo inter nos de litteris
 {{< spacer 5 >}}
-{{< button link="/#" text="Contact" >}}
+{{< button link="/contact" text="Contact" >}}
 {{< /card >}}
 {{< card >}}
 #### Become a Sponsor
 quarum summum erat in utroque studium
 {{< spacer 5 >}}
-{{< button link="/#" text="Sponsor" >}}
+{{< button link="/sponsor-us" text="Sponsor" >}}
 {{< /card >}}
 {{< /cards >}}
 {{< spacer 20 >}}
