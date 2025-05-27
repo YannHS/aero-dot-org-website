@@ -25,12 +25,12 @@ showSubpages: false
 {{< columns count=3 >}}
 {{< column >}}
 {{< img src="/img/reg-2020.jpg" >}}
-### Regular Class - 2020
+### Micro Class - 2024
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. 
 {{< /column >}}
 {{< column >}}
 {{< img src="/img/adv-2022.jpg" >}}
-### Advanced Class - 2022
+### Advanced Class - 2025
 Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur.
 {{< /column >}}
 {{< column >}}
