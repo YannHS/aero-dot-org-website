@@ -3,6 +3,7 @@ title: uOAT
 description: University of Ottawa Aerospace Team
 showHeader: false
 showSubpages: false
+images: ["/img/plane1.jpg"]
 ---
 
 {{< columns count=2 >}}
@@ -20,45 +21,53 @@ showSubpages: false
 {{< /column >}}
 {{< /columns >}}
 
+---
+
 ## Have a look at what we've done
 
-{{< columns count=3 >}}
-{{< column >}}
-{{< img src="/img/reg-2020.jpg" >}}
-### Micro Class - 2024
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-{{< /column >}}
-{{< column >}}
-{{< img src="/img/adv-2022.jpg" >}}
-### Advanced Class - 2025
-Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur.
-{{< /column >}}
-{{< column >}}
-{{< img src="/img/mic-2024.jpg" >}}
+{{< cards count=4 >}}
+{{< card >}}
 ### Micro Class - 2025
-Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit.
-{{< /column >}}
-{{< /columns >}}
+{{< img src="/img/mic-2024.jpg" >}}
+{{< spacer 5 >}}
+{{< button link="designs/2025-micro" text="Learn More" >}}
+{{< /card >}}
+{{< card >}}
+### Advanced Class - 2025
+{{< img src="/img/adv-2022.jpg" >}}
+{{< spacer 5 >}}
+{{< button link="designs/2025-advanced" text="Learn More" >}}
+{{< /card >}}
+{{< card >}}
+### Micro Class - 2024
+{{< img src="/img/reg-2020.jpg" >}}
+{{< spacer 5 >}}
+{{< button link="designs/2024-micro" text="Learn More" >}}
+{{< /card >}}
+{{< /cards >}}
+
 {{< spacer 20 >}}
 
 ---
 
+## Take Action
+
 {{< cards count=3 >}}
 {{< card >}}
 #### Join Us Today
-In Cumanum salutandi causa uterque venisset
+Come Build Planes with Us!
 {{< spacer 5 >}}
 {{< button link="/join" text="Join Us" >}}
 {{< /card >}}
 {{< card >}}
 #### Talk to us
-pauca primo inter nos de litteris
+Get you inquiries answered.
 {{< spacer 5 >}}
 {{< button link="/contact" text="Contact" >}}
 {{< /card >}}
 {{< card >}}
 #### Become a Sponsor
-quarum summum erat in utroque studium
+Support us and get some recognition.
 {{< spacer 5 >}}
 {{< button link="/sponsor-us" text="Sponsor" >}}
 {{< /card >}}

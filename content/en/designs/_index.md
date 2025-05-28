@@ -1,7 +1,7 @@
 ---
 title: Our Aerospace Designs
 description: A list of what we've accomplished
-images: ["https://via.placeholder.com/250x200/d9d9d9/000000"]
+images: ["/img/plane1.jpg"]
 showSubpages: false
 ---
 

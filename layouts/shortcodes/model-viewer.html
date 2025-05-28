@@ -1,0 +1,72 @@
+{{ $model := .Get "model" | default "" }}
+{{ if eq $model "" }}
+  {{ errorf "The 'model' parameter is required" }}
+{{ end }}
+
+{{ $poster := .Get "poster" | default "" }}
+
+
+<!-- Import the model-viewer component (adjust the src path if needed) -->
+<script type="module" src="/js/model-viewer.min.js"></script>
+
+<style>
+                  .hotspot {
+                    display: block; 
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: blue;
+                    box-sizing: border-box; 
+                    pointer-events: none;
+                  }
+
+                  .hotspot[slot="hotspot-1"] {
+                    --min-hotspot-opacity: 0;
+                    background-color: #FFF;
+                    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+                  }
+
+                  .annotation {
+                    background-color: #EEE;
+                    position: absolute; 
+                    transform: translate(10px, 10px);
+                    border-radius: 10px; 
+                    padding: 10px; 
+                    width: unset !important;
+                    max-width: unset !important;
+                    
+                    
+                    
+                  }
+
+                  /* This keeps child nodes hidden while the element loads */
+                  :not(:defined)>* {
+                    display: none;
+                  }
+                </style>
+
+
+<model-viewer 
+    src="{{ $model }}"
+    {{ if $poster }}poster="{{ $poster }}"{{ end }}
+    ar 
+    ar-modes="webxr scene-viewer quick-look" 
+    camera-controls 
+    tone-mapping="neutral" 
+    shadow-intensity="1" 
+    auto-rotate 
+    style="width: 100%; height: 600px;"
+>
+{{ .Inner | safeHTML }}
+
+
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+</model-viewer>
+
+
