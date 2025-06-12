@@ -1,13 +1,49 @@
 <link rel="stylesheet" href="/css/lightbox.min.css" />
-<script src="/js/jquery.min.js"></script>
-<script src="/js/lightbox.min.js"></script>
+<script src="/js/lightbox-plus-jquery.min.js"></script>
 
-{{ $image := (.Page.Resources.ByType "image") }}
-{{ with $image }}
-    {{ range . }}
-    {{ $resized := .Fill "150x115 q20" }}
-    {{ $normal := .Resize "x2048 q85" }}
-    <a href="{{ $normal.Permalink }}" data-lightbox="x"><img src="{{ $resized.Permalink }}" /></a>
-    {{ end }}
+<script>
+    lightbox.option({
+      'resizeDuration': 50,
+      'fadeDuration': 50,
+      'wrapAround': true,
+      'disableScrolling': true,
+      'alwaysShowNavOnTouchDevices':true
+    })
+</script>
+
+<div class="cards gallery" >
+
+{{/* Grab all image resources on this page */}}
+{{ $images := .Page.Resources.ByType "image" }}
+{{ with $images }}
+  {{ range . }}
+    {{/* generate thumbnail and large versions */}}
+    {{ $thumb := .Fill "256x256 q25" }}
+    {{ $large := .Resize "x1024 q85" }}
+
+    {{/* .Name is the filename+ext; strip the extension for caption */}}
+    {{ $caption := replaceRE `\.[^.]+$` "" .Name }}
+
+
+    
+    <a
+      href="{{ $large.Permalink }}"
+      data-lightbox="gallery"
+      data-title="{{ $caption | html }}"
+      class=""
+      
+    >
+      <img
+        src="{{ $thumb.Permalink }}"
+        alt="{{ $caption | html }}"
+        style="border-radius: 5px; width: 100%;"
+        
+      />
+    </a>
+    
+  {{ end }}
 {{ end }}
+
+
+</div>
 
