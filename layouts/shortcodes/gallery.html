@@ -1,17 +1,20 @@
-<link rel="stylesheet" href="/css/lightbox.min.css" />
-<script src="/js/lightbox-plus-jquery.min.js"></script>
+<link rel="stylesheet" href="/css/baguetteBox.min.css" />
+<script src="/js/baguetteBox.min.js"></script>
 
 <script>
-    lightbox.option({
-      'resizeDuration': 50,
-      'fadeDuration': 50,
-      'wrapAround': true,
-      'disableScrolling': true,
-      'alwaysShowNavOnTouchDevices':true
-    })
+    
 </script>
 
 <div class="cards gallery" >
+
+<script type="text/javascript">
+    window.addEventListener("load", function() {
+      baguetteBox.run(".gallery", {
+        //custom options here
+         
+      });
+    });
+  </script>
 
 {{/* Grab all image resources on this page */}}
 {{ $images := .Page.Resources.ByType "image" }}
@@ -28,8 +31,7 @@
     
     <a
       href="{{ $large.Permalink }}"
-      data-lightbox="gallery"
-      data-title="{{ $caption | html }}"
+      data-caption="{{ $caption | html }}"
       class=""
       
     >
