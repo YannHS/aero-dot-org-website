@@ -15,10 +15,11 @@ images: ["/img/plane1.jpg"]
 {{< /intro >}}
 
 {{< /column >}}
-{{< column >}}
-{{< spacer >}}
-{{< img src="/img/plane1.jpg" loading="eager" >}}
-{{< /column >}}
+
+
+{{< galimg src="/img/plane1.jpg" loading="eager" caption="PLAAANES">}}
+
+
 {{< /columns >}}
 
 ---

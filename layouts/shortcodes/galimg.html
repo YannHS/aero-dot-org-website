@@ -1,0 +1,45 @@
+{{/* layouts/shortcodes/img.html */}}
+
+
+
+{{ $src       := .Get "src" }}
+{{ $width     := .Get "width"  | replaceRE "[^0-9]" "" }}
+{{ $height    := .Get "height" | replaceRE "[^0-9]" "" }}
+{{ $caption   := .Get "caption" }}
+{{ $loading   := .Get "loading" | default "lazy" }}
+
+
+{{ $filenameWithExt := path.Base $src }}
+{{ $filename        := strings.TrimSuffix $filenameWithExt (path.Ext $filenameWithExt) }}
+{{ $name            := replaceRE "[-_]" " " $filename }}
+{{ $nameCapitalized := humanize $name }}
+{{ $altInput        := .Get "alt" | safeHTMLAttr }}
+{{ $alt             := cond (gt (len $altInput) 0) $altInput (safeHTMLAttr "") }}
+
+{{ if $src }}
+
+    <figure class="gallery">
+
+  
+  <a 
+    href="{{ $src }}" 
+    class="gallery-item" 
+    data-caption="{{ $caption  }}" 
+    title="{{ $alt }}"
+  >
+    <img
+      src="{{ $src }}"
+      width="{{ $width }}"
+      height="{{ $height }}"
+      alt="{{ $alt }}"
+      loading="{{ $loading }}"
+    />
+  </a>
+
+  {{ if $caption }}
+    <figcaption>{{ $caption | markdownify }}</figcaption>
+
+  {{ end }}
+      </figure>
+{{ end }}
+
