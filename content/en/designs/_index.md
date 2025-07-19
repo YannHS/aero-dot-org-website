@@ -5,22 +5,22 @@ images: ["/img/plane1.jpg"]
 showSubpages: false
 ---
 
-{{< cards count=2 >}}
+{{< cards count=3 >}}
 {{< card >}}
-### Micro Class - 2025
-{{< img src="/img/mic-2024.jpg" >}}
+### Micro - 2025
+![](/img/micro-on-the-concrete.jpg)
 {{< spacer 5 >}}
 {{< button link="2025-micro" text="Learn More" >}}
 {{< /card >}}
 {{< card >}}
-### Advanced Class - 2025
-{{< img src="/img/adv-2022.jpg" >}}
+### Advanced - 2025
+![](/img/adv-gala.jpg)
 {{< spacer 5 >}}
 {{< button link="2025-advanced" text="Learn More" >}}
 {{< /card >}}
 {{< card >}}
-### Micro Class - 2024
-{{< img src="/img/reg-2020.jpg" >}}
+### Micro - 2024
+![](/img/micro-2024-flying.jpg)
 {{< spacer 5 >}}
 {{< button link="2024-micro" text="Learn More" >}}
 {{< /card >}}

@@ -8,40 +8,47 @@ images: ["/img/plane1.jpg"]
 
 {{< columns count=2 >}}
 {{< column >}}
-# We Build Planes!
+
+
+# uOttawa AERONAUTICS
 
 {{< intro >}}
-**Our Mission:** Ever since we, **The Aerospace Team** Fucking **FAILED** at SAE, we wanted to build a better plane. This website will help us gain *valuable* sponsor money to better fund spektrum reveivers and carbon-fiber plingus.
+We are a [uOttawa JMTS team](https://www.uottawa.ca/faculty-engineering/centre-entrepreneurship-engineering-design/facilities/john-mcentrye-team-space) that builds RC aircraft for the [SAE Aero Design](https://www.saeaerodesign.com/) competition.
 {{< /intro >}}
 
 {{< /column >}}
 
 
-{{< galimg src="/img/plane1.jpg" loading="eager" caption="PLAAANES">}}
+{{< galimg src="/img/working-on-micro-at-comp.jpg" caption="Working on the Micro Class 2025 plane">}}
 
 
 {{< /columns >}}
+
+
+{{< intro >}}
+This year, we are aiming to design and build an aircraft for both the *Advanced Class* and the *Micro Class*.
+{{< /intro >}}
 
 ---
 
 ## Have a look at what we've done
 
-{{< cards count=4 >}}
+{{< cards count=3 >}}
 {{< card >}}
-### Micro Class - 2025
-{{< img src="/img/mic-2024.jpg" >}}
+### Micro - 2025
+![](/img/micro-on-the-concrete.jpg)
 {{< spacer 5 >}}
 {{< button link="designs/2025-micro" text="Learn More" >}}
 {{< /card >}}
 {{< card >}}
-### Advanced Class - 2025
-{{< img src="/img/adv-2022.jpg" >}}
+### Advanced - 2025
+![](/img/adv-gala.jpg)
 {{< spacer 5 >}}
 {{< button link="designs/2025-advanced" text="Learn More" >}}
 {{< /card >}}
 {{< card >}}
-### Micro Class - 2024
-{{< img src="/img/reg-2020.jpg" >}}
+### Micro - 2024
+![](/img/micro-2024-flying.jpg)
 {{< spacer 5 >}}
 {{< button link="designs/2024-micro" text="Learn More" >}}
 {{< /card >}}
@@ -51,23 +58,28 @@ images: ["/img/plane1.jpg"]
 
 ---
 
-## Take Action
 
-{{< cards count=3 >}}
+{{< cards count=4 >}}
 {{< card >}}
-#### Join Us Today
+### Join Us Today 🛩️
 Come Build Planes with Us!
 {{< spacer 5 >}}
 {{< button link="/join" text="Join Us" >}}
 {{< /card >}}
 {{< card >}}
-#### Talk to us
+### Learn more About Us ℹ️
+Get to know who we are and what we've done.
+{{< spacer 5 >}}
+{{< button link="/mission" text="About Us" >}}
+{{< /card >}}
+{{< card >}}
+### Talk to us 📨
 Get you inquiries answered.
 {{< spacer 5 >}}
 {{< button link="/contact" text="Contact" >}}
 {{< /card >}}
 {{< card >}}
-#### Become a Sponsor
+### Become a Sponsor 💵
 Support us and get some recognition.
 {{< spacer 5 >}}
 {{< button link="/sponsor-us" text="Sponsor" >}}

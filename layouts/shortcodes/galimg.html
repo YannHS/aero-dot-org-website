@@ -1,45 +1,35 @@
-{{/* layouts/shortcodes/img.html */}}
+
+<div class="gallery" >
+
+<script type="text/javascript">
+    window.addEventListener('load', function() {
+      baguetteBox.run('.gallery');
+    });
+</script>
+
+{{ $caption := replaceRE `\.[^.]+$` "" (.Get "caption" )}}
+
+{{ $src := resources.GetMatch (.Get "src") }}
+{{ $thumb := $src.Resize "x600 q50 webp" }}
+{{ $large := $src.Resize "x1024 q85 webp" }}
+
+    
+    <a
+      href="{{ $large.Permalink }}"
+      data-caption="{{ $caption | html }}"
+      class=""
+      
+    >
+      <img
+        src="{{ $thumb.Permalink }}"
+        alt="{{ $caption | html }}"
+        style="border-radius: 5px; width: 100%;"
+        
+      />
+    </a>
+    
 
 
 
-{{ $src       := .Get "src" }}
-{{ $width     := .Get "width"  | replaceRE "[^0-9]" "" }}
-{{ $height    := .Get "height" | replaceRE "[^0-9]" "" }}
-{{ $caption   := .Get "caption" }}
-{{ $loading   := .Get "loading" | default "lazy" }}
-
-
-{{ $filenameWithExt := path.Base $src }}
-{{ $filename        := strings.TrimSuffix $filenameWithExt (path.Ext $filenameWithExt) }}
-{{ $name            := replaceRE "[-_]" " " $filename }}
-{{ $nameCapitalized := humanize $name }}
-{{ $altInput        := .Get "alt" | safeHTMLAttr }}
-{{ $alt             := cond (gt (len $altInput) 0) $altInput (safeHTMLAttr "") }}
-
-{{ if $src }}
-
-    <figure class="gallery">
-
-  
-  <a 
-    href="{{ $src }}" 
-    class="gallery-item" 
-    data-caption="{{ $caption  }}" 
-    title="{{ $alt }}"
-  >
-    <img
-      src="{{ $src }}"
-      width="{{ $width }}"
-      height="{{ $height }}"
-      alt="{{ $alt }}"
-      loading="{{ $loading }}"
-    />
-  </a>
-
-  {{ if $caption }}
-    <figcaption>{{ $caption | markdownify }}</figcaption>
-
-  {{ end }}
-      </figure>
-{{ end }}
+</div>
 

@@ -2,10 +2,10 @@ en:
   languageName: English
   weight: 1
   ### copyright (markdown can be used) ###
-  copyright: "Copyright &copy; {{< current_year >}} Aerospace Team. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)."
-  title: "Aerospace Team"
+  copyright: "Copyright &copy; {{< current_year >}} uOttawa Aeronautics Team. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)."
+  title: "uOttawa Aeronautics Team"
   email: example@uottawa.ca
-  address: 123 Amogus Avenue, Ottawa, Ontario, Canada 🇨🇦
+  address: 150 Louis-Pasteur Private, Ottawa, ON, K1N 9A7 🇨🇦
   params:
     description: "Site Description"
 
@@ -61,7 +61,7 @@ en:
       name: "Our Sponsors"
       url: "/sponsors/"
       weight: 1
-      post: "See who is generously sponsoring us."
+      post: "See our generous sponsors."
       parent: "sponsors"
     - identifier: "sponsor-us"
       name: "Sponsor Us"
