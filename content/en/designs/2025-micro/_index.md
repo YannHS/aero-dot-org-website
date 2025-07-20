@@ -6,8 +6,8 @@ images: ["/img/plane1.jpg"]
 
 {{< columns count=2 >}}
 {{< column >}}
-## The Dorito
-Affectionately called **The Dorito**, this aircraft is machined out of foam for a strong, unibody airframe.
+## The UOAN-M25
+### The UOAN-M25, our 2025 SAE Aero Design Micro Class aircraft, is a lightweight, modular platform built for performance and rapid assembly.
 
 {{< /column >}}
 
@@ -27,5 +27,19 @@ Affectionately called **The Dorito**, this aircraft is machined out of foam for 
 
 
 {{< /columns >}}
+
+
+
+{{< columns count=2 >}}
+
+{{< galimg src="img/micro-on-the-concrete.jpg" caption="The aircraft displayed on a concrete floor" >}}
+
+{{< column >}}
+Featuring a cropped delta wing and T-tail layout, the design is optimized for payload capacity, durability, and ease of manufacturing. The airframe consists of a carbon fiber skeleton housed in a CNC-machined EPS foam body, allowing key components to be transferred between bodies in minutes. Powered by an E-flite Power 10 motor and supported by custom baffles for payload stability, the UOAN-M25 balances aerodynamic efficiency and structural integrity.
+{{< /column >}}
+
+{{< /columns >}}
+
+## Photo Gallery
 
 {{< gallery >}} 

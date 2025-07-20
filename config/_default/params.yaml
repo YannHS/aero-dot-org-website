@@ -10,7 +10,7 @@ custom_css: []
 
 ### default social share image (can also be set per lang) ###
 ### 1200 × 600 ###
-images: ["/img/plane1.jpg"]
+images: ["/social.png"]
 
 github:
   repo_url: "https://github.com/username/repo/blob/master"

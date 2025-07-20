@@ -4,7 +4,7 @@ en:
   ### copyright (markdown can be used) ###
   copyright: "Copyright &copy; {{< current_year >}} uOttawa Aeronautics Team. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)."
   title: "uOttawa Aeronautics Team"
-  email: example@uottawa.ca
+  email: aeronautics@uottawa.ca
   address: 150 Louis-Pasteur Private, Ottawa, ON, K1N 9A7 🇨🇦
   params:
     description: "Site Description"

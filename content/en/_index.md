@@ -3,7 +3,6 @@ title: uOAT
 description: University of Ottawa Aerospace Team
 showHeader: false
 showSubpages: false
-images: ["/img/plane1.jpg"]
 ---
 
 {{< columns count=2 >}}
