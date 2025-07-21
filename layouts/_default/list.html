@@ -2,9 +2,10 @@
 {{ .Content }}
   {{ if .Params.showSubpages | default true }}
     {{ range .Pages }}
-      <article>
+      <article class="card">
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <p>{{ .Summary | plainify }}</p>
+        <p>{{.Summary | markdownify | truncate 169}}</p>
+        <p><b>{{ time.Format "January 2, 2006" .Date}}</b></p>
       </article>
     {{ end }}
   {{ end }}

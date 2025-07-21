@@ -1,6 +1,4 @@
 ---
-title: "Blog"
-description: ""
+title: "Posts"
+description: "Here's what we've been up to."
 ---
-
-Welcome to our blog.
