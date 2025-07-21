@@ -1,7 +1,6 @@
 ---
 title: Our Aerospace Designs
 description: A list of what we've accomplished
-images: ["/img/plane1.jpg"]
 showSubpages: false
 ---
 

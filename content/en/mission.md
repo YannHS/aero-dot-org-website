@@ -1,7 +1,6 @@
 ---
 title: Our Mission
 description: What we do, why we do it and why we want to do it.
-images: ["https://via.placeholder.com/250x200/d9d9d9/000000"]
 ---
 
 

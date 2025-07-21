@@ -1,8 +1,9 @@
 ---
 title: Our Team
 description: Have a look at our team members.
-images: ["https://via.placeholder.com/250x200/d9d9d9/000000"]
 ---
+
+# This is a WIP
 
 {{< cards count=4 >}}
 

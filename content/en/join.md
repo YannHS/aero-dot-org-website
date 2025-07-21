@@ -1,7 +1,6 @@
 ---
 title: Join Our Team
 description: The process for joining our team
-images: ["img/plane1.jpg"]
 ---
 
 

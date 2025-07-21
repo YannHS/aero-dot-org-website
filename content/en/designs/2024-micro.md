@@ -1,7 +1,6 @@
 ---
 title: Micro Class - 2024
 description: Overview of 2025 micro class aircraft design
-images: ["/img/plane1.jpg"]
 ---
 
 {{< columns count=2 >}}
