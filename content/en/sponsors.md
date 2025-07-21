@@ -1,45 +1,26 @@
 ---
 title: Our Sponsors
-description: The People and Organizations who help us along.
-images: ["https://via.placeholder.com/250x200/d9d9d9/000000"]
+description: The Organizations who help us along.
 ---
 
-### Here are all the generous People and Organizations who help us along.
-
-(These are not real organizations)
+### Here are all the generous Organizations who help us along.
 
 {{< cards count=4 >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/1.svg) ](https://we-are-jammin.xyz)
+[ ![Sponsor](/img/sponsors/dupont.svg) ](https://www.dupont.ca/)
 {{< /card >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/2.svg) ](https://we-are-jammin.xyz)
+[ ![Sponsor](/img/sponsors/hts.svg) ](https://www.hts.com/)
 {{< /card >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/3.svg) ](https://we-are-jammin.xyz)
+[ ![Sponsor](/img/sponsors/ceed.svg) ](https://ceed-uottawa.ca/)
 {{< /card >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/4.svg) ](https://we-are-jammin.xyz)
-{{< /card >}}
-
-{{< card >}}
-[ ![Sponsor](/img/sponsors/5.svg) ](https://we-are-jammin.xyz)
-{{< /card >}}
-
-{{< card >}}
-[ ![Sponsor](/img/sponsors/6.svg) ](https://we-are-jammin.xyz)
-{{< /card >}}
-
-{{< card >}}
-[ ![Sponsor](/img/sponsors/7.svg) ](https://we-are-jammin.xyz)
-{{< /card >}}
-
-{{< card >}}
-[ ![Sponsor](/img/sponsors/8.svg) ](https://we-are-jammin.xyz)
+[ ![Sponsor](/img/sponsors/eef.svg) ](https://www.uottawa.ca/faculty-engineering/student-experience/funding-student-initiatives)
 {{< /card >}}
 
 {{< /cards >}}
