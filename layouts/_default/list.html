@@ -5,7 +5,7 @@
       <article class="card">
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         <p>{{.Summary | markdownify | truncate 169}}</p>
-        <p><b>{{ time.Format "January 2, 2006" .Date}}</b></p>
+        <p><b>{{ time.Format "January 2, 2006" .Date}}</b> · Written by <i>{{ .Params.author | plainify }}</i></p>
       </article>
     {{ end }}
   {{ end }}
