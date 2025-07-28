@@ -55,34 +55,5 @@ This year, we are aiming to design and build an aircraft for both the *Advanced 
 
 {{< spacer 20 >}}
 
----
 
-
-{{< cards count=4 >}}
-{{< card >}}
-### Join Us Today 🛩️
-Come Build Planes with Us!
-{{< spacer 5 >}}
-{{< button link="/join" text="Join Us" >}}
-{{< /card >}}
-{{< card >}}
-### Learn more About Us ℹ️
-Get to know who we are and what we've done.
-{{< spacer 5 >}}
-{{< button link="/mission" text="About Us" >}}
-{{< /card >}}
-{{< card >}}
-### Talk to us 📨
-Get you inquiries answered.
-{{< spacer 5 >}}
-{{< button link="/contact" text="Contact" >}}
-{{< /card >}}
-{{< card >}}
-### Become a Sponsor 💵
-Support us and get some recognition.
-{{< spacer 5 >}}
-{{< button link="/sponsor-us" text="Sponsor" >}}
-{{< /card >}}
-{{< /cards >}}
-{{< spacer 20 >}}
 

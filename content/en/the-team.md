@@ -3,59 +3,56 @@ title: Our Team
 description: Have a look at our team members.
 ---
 
-# This is a WIP
-
 {{< cards count=4 >}}
 
+<!------------------------------------------------------>
 {{< card >}}
-![steve](/img/team/steve.jpg "Steve")
-### Steve Jockly
-Thingamabob Designer
+![Zaid Lateef](/img/team/Zaid_Lateef.png "Zaid Lateef")
+### Zaid Lateef 
+Pilot
 
-sjock042@uottawa.ca
+zlate012@uottawa.ca 
 
-{{< button link="https://we-are-jammin.xyz" text="Blog **↗**" >}}
+{{< button link="https://www.linkedin.com/in/zaid-lateef-070306302 " text="Linkedin **↗**" >}}
 {{< /card >}}
-
+<!------------------------------------------------------>
 {{< card >}}
-![steve](/img/team/julia.jpg "Julia")
-### Julia Walkley
-Senior Landing Gear Engineer
+![McQueen Zhao](/img/team/McQueen_Zhao.png "McQueen Zhao")
+### McQueen Zhao 
+ Advanced Electronics Lead  
 
-jwalk019@uottawa.ca
+czhao052@uottawa.ca 
 
-
-{{< button link="https://we-are-jammin.xyz" text="Linkedin **↗**" >}}
 {{< /card >}}
-
+<!------------------------------------------------------>
 {{< card >}}
-![steve](/img/team/hiro.jpg "Hiro")
-### Hiro Flockly
-Wack Team Lead
+![Benjamin Beck](/img/team/Benjamin_Beck.png "Benjamin Beck")
+### Benjamin Beck
+Little bit of this little bit of that.  
 
-hfloc652@uottawa.ca
+bbeck023@uottawa.ca 
 
-{{< button link="https://we-are-jammin.xyz" text="Resume **↗**" >}}
+{{< button link="https://www.linkedin.com/in/benjamin-vj-beck " text="Linkedin **↗**" >}}
 {{< /card >}}
-
+<!------------------------------------------------------>
 {{< card >}}
-![steve](/img/team/jeremy.jpg "Jeremy")
-### Jeremy Talkaly
-Junior Funny Engineer
+![Finley St-Denis](/img/team/Finley_St-Denis.png "Finley St-Denis")
+### Finley St-Denis
+Micro & Media 
 
-jtalk024@uottawa.ca
+fstde090@uottawa.ca 
 
-{{< button link="https://we-are-jammin.xyz" text="Codeberg **↗**" >}}
+{{< button link="https://www.linkedin.com/in/finley-st-denis/" text="Linkedin **↗**" >}}
 {{< /card >}}
-
+<!------------------------------------------------------>
 {{< card >}}
-![steve](/img/team/hannah.jpg "Steve")
-### Hannah Knockedy
-Lead Aircraft Crasher
+![Yan](/img/team/Yan.png "Yan")
+### Yan
+Programmer and Electronics 
 
-hknoc056@uottawa.ca
+ydier065@uottawa.ca 
 
-{{< button link="https://we-are-jammin.xyz" text="Paypal **↗**" >}}
+{{< button link="https://dierolf.ca" text="Blog **↗**" >}}
 {{< /card >}}
-
+<!------------------------------------------------------>
 {{< /cards >}}

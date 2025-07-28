@@ -36,9 +36,9 @@ en:
       weight: 2
       post: "Learn more about who we are."
       parent: "about"
-    - identifier: "our-designs"
-      name: "Our Designs"
-      url: "/designs/"
+    - identifier: "competition"
+      name: "Competition"
+      url: "/competition/"
       weight: 3
       post: "See current and past aircraft."
       parent: "about"
@@ -50,7 +50,7 @@ en:
       
     - identifier: "posts"
       name: "Posts"
-      url: "/posts/"
+      url: "/blog/"
       weight: 3
 
     - identifier: "sponsors"
