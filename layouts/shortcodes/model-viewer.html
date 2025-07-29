@@ -6,67 +6,148 @@
 {{ $poster := .Get "poster" | default "" }}
 
 
-<!-- Import the model-viewer component (adjust the src path if needed) -->
+<!-- Yes, I know that the following is very cringe. Forgive me. -->
+
 <script type="module" src="/js/model-viewer.min.js"></script>
 
 <style>
-                  .hotspot {
-                    display: block; 
-                    width: 20px;
-                    height: 20px;
-                    border-radius: 10px;
-                    border: none;
-                    background-color: blue;
-                    box-sizing: border-box; 
-                    pointer-events: none;
-                  }
+.hotspot {
+  display: block; 
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  box-sizing: border-box; 
+  pointer-events: none;
+}
 
-                  .hotspot[slot="hotspot-1"] {
-                    --min-hotspot-opacity: 0;
-                    background-color: #FFF;
-                    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
-                  }
+.hotspot[slot="hotspot-1"] {
+  --min-hotspot-opacity: 0;
+  background-color: #FFF;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+}
 
-                  .annotation {
-                    background-color: #EEE;
-                    position: absolute; 
-                    transform: translate(10px, 10px);
-                    border-radius: 10px; 
-                    padding: 10px; 
-                    width: unset !important;
-                    max-width: unset !important;
-                    
-                    
-                    
-                  }
-
-                  /* This keeps child nodes hidden while the element loads */
-                  :not(:defined)>* {
-                    display: none;
-                  }
-                </style>
+.annotation {
+  background-color: #EEE;
+  position: absolute; 
+  transform: translate(10px, 10px);
+  border-radius: 10px; 
+  padding: 10px; 
+  width: unset !important;
+  max-width: unset !important;           
+}
 
 
-<model-viewer 
-    src="{{ $model }}"
-    {{ if $poster }}poster="{{ $poster }}"{{ end }}
-    ar 
-    ar-modes="webxr scene-viewer quick-look" 
-    camera-controls 
-    tone-mapping="neutral" 
-    shadow-intensity="1" 
-    auto-rotate 
-    style="width: 100%; height: 600px;"
->
-{{ .Inner | safeHTML }}
+body, ::backdrop {
+    background: #fff;
+}
+#action-button {
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    border:  0;
+    width:  40px;
+    height:  40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition:  transform .3s;
+    cursor:  pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+
+     
+}
+#action-button:hover {
+    transform: scale(1.125);
+}
+#action-button svg:nth-child(2) { 
+    display: none;
+}
+[fullscreen] #action-button svg:nth-child(1) {
+    display: none;
+}
+[fullscreen] #action-button svg:nth-child(2) {
+    display: inline-block;
+}
+</style>
+
+<noscript><img src="{{ $poster }}"></noscript>
 
 
-    <div class="progress-bar hide" slot="progress-bar">
-        <div class="update-bar"></div>
-    </div>
-    <button slot="ar-button" id="ar-button">
-        View in your space
-    </button>
-</model-viewer>
+<div id="model-viewer-wrapper">
+  <model-viewer
+    id="the-3d-model"
+    {{ if $poster }} poster="{{ $poster }}" {{ end }}
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    camera-controls
+    tone-mapping="neutral"
+    shadow-intensity="1"
+    auto-rotate
+    style="width: 100%; height: 100%; border-radius: 5px;"
+  >
+    
+  
+
+  </model-viewer>
+</div>
 
 
+
+<script>
+
+const wrapper = document.getElementById('model-viewer-wrapper');
+const viewer  = document.getElementById('the-3d-model');
+  
+function toggle_fullscreen(element) {
+    if (!document.fullscreenElement) {
+        wrapper.requestFullscreen();
+        wrapper.setAttribute("fullscreen",""); 
+    } else {
+        document.exitFullscreen?.();
+        wrapper.removeAttribute("fullscreen"); 
+    }
+};
+
+function load_model() {
+  viewer.setAttribute('src', '{{ $model }}');
+  if (document.fullscreenEnabled) {
+    action_button.innerHTML = `
+          <svg viewBox="0 0 24 24">
+              <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 
+              7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
+          </svg>
+          <svg viewBox="0 0 24 24">
+              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 
+              11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"/>
+          </svg>
+      `;
+    action_button.style.top = '20px';
+    action_button.style.left = '20px';
+    action_button.addEventListener("click", toggle_fullscreen);
+        }
+    else {
+      action_button.style.visibility = 'none';
+    }
+};
+
+const ar_button = document.createElement("button");
+ar_button.setAttribute('slot', 'ar-button');
+ar_button.setAttribute('id', 'ar-button');
+ar_button.innerHTML = 'View in your space';
+
+viewer.innerHTML = '{{ .Inner | safeHTML }}';
+
+const action_button = document.createElement("button");
+action_button.setAttribute('id','action-button');
+action_button.addEventListener("click", load_model);
+action_button.innerHTML = '<svg viewBox="0 0 24 24"><path d="M5 19h14.1v2.1H5Zm6-15.6v11.7L7.7 12l-1.4 1.4L12 19l5.6-5.7-1.4-1.4L13 15V3.4z"/></svg>';
+viewer.appendChild(action_button);
+
+</script>
+
+  
