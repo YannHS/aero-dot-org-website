@@ -2,7 +2,7 @@
 
 # Add custom assets relative to /static or via https
 logo_on_white: "/favicon.svg"
-logo_on_black: "/img/old-aeronautics-logo-black.webp"
+logo_on_black: "/favicon_dark.svg"
 custom_js: []
 custom_css: []
 
