@@ -10,13 +10,13 @@
     line-height: 1;
     text-align: center;
     letter-spacing: 0.7px;
-    transition:  transform .3s;
+    opacity: 1;
 
     &:hover,
     &:active {
         color: var(--white);
         background-color: var(--primary-800);
-        transform: scale(1.1);
+        opacity: 0.9;
     }
     &.secondary {
         background-color: var(--primary-400);
