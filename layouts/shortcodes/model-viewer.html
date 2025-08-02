@@ -4,6 +4,8 @@
 {{ end }}
 
 {{ $poster := .Get "poster" | default "" }}
+{{ $camera := .Get "camera-orbit" | default "" }}
+{{ $fov := .Get "field-of-view" | default "" }}
 
 
 <!-- Yes, I know that the following is very cringe. Forgive me. -->
@@ -46,8 +48,8 @@ body, ::backdrop {
     background: rgb(255, 255, 255);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
     border:  0;
-    width:  40px;
-    height:  40px;
+    width:  60px;
+    height:  60px;
     border-radius: 50%;
     box-sizing: border-box;
     transition:  transform .3s;
@@ -58,11 +60,14 @@ body, ::backdrop {
     position: relative;
     left: 50%;
     top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
 
      
 }
 #action-button:hover {
-    transform: scale(1.125);
+    transform: translate(-50%, -50%) scale(1.125);
 }
 #action-button svg:nth-child(2) { 
     display: none;
@@ -73,6 +78,19 @@ body, ::backdrop {
 [fullscreen] #action-button svg:nth-child(2) {
     display: inline-block;
 }
+
+.model-viewer-darkness::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  z-index: 1;
+}
+
 </style>
 
 <noscript><img src="{{ $poster }}"></noscript>
@@ -82,6 +100,8 @@ body, ::backdrop {
   <model-viewer
     id="the-3d-model"
     {{ if $poster }} poster="{{ $poster }}" {{ end }}
+    {{ if $camera }} camera-orbit="{{ $camera }}" {{ end }}
+    {{ if $fov }} field-of-view="{{ $fov }}" {{ end }}
     ar
     ar-modes="webxr scene-viewer quick-look"
     camera-controls
@@ -126,8 +146,9 @@ function load_model() {
               11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"/>
           </svg>
       `;
-    action_button.style.top = '20px';
-    action_button.style.left = '20px';
+    action_button.style.top = '40px';
+    action_button.style.left = '40px';
+    viewer.removeChild(darknessOverlay);
     action_button.addEventListener("click", toggle_fullscreen);
         }
     else {
@@ -135,18 +156,28 @@ function load_model() {
     }
 };
 
+// Add the AR button
 const ar_button = document.createElement("button");
 ar_button.setAttribute('slot', 'ar-button');
 ar_button.setAttribute('id', 'ar-button');
 ar_button.innerHTML = 'View in your space';
 
+// Add any tags added in markdown
 viewer.innerHTML = '{{ .Inner | safeHTML }}';
 
+
+
+// Add the download button
 const action_button = document.createElement("button");
 action_button.setAttribute('id','action-button');
 action_button.addEventListener("click", load_model);
 action_button.innerHTML = '<svg viewBox="0 0 24 24"><path d="M5 19h14.1v2.1H5Zm6-15.6v11.7L7.7 12l-1.4 1.4L12 19l5.6-5.7-1.4-1.4L13 15V3.4z"/></svg>';
 viewer.appendChild(action_button);
+
+// Darken the model viewer
+const darknessOverlay = document.createElement('div');
+darknessOverlay.setAttribute('class', 'model-viewer-darkness')
+viewer.appendChild(darknessOverlay);
 
 </script>
 
