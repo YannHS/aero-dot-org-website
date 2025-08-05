@@ -9,6 +9,8 @@ timeZone: "America/Toronto"
 # Defines the minimum amount of words to reddened in a summary
 summaryLength: 50
 
+timeout: 200
+
 ######################## i18n ####################
 # Auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 hasCJKLanguage: false
