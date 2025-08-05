@@ -15,7 +15,7 @@ description: What we do, why we do it and why we want to do it.
 {{< /column >}}
 {{< /columns >}}
 
- Students get to apply the skills they learn in class in our two subteams: **Micro** and **Advanced**. These subteams are not strictly isolated; members can work on whichever tasks suits them best.
+ Centering team motivation behind the SAE Aero Design competition is an effective way to get feedback for our designs from industry professionals and to keep the team united towards a single goal. Students get to chose, based on their abilities and knowledge, one of our two subteams: **Micro** or **Advanced**. These subteams are not strictly isolated; members can work on whichever tasks suits them best. This approach makes sure that students from a variety of backgrounds can find their own role on the team.
 
 {{< cards count=2 >}}
 {{< card >}}

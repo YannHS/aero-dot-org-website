@@ -36,12 +36,34 @@ en:
       weight: 2
       post: "Learn more about who we are."
       parent: "about"
+    
     - identifier: "competition"
       name: "Competition"
       url: "/competition/"
       weight: 3
       post: "See current and past aircraft."
-      parent: "about"
+    - identifier: "competition-about"
+      name: "About the Competition"
+      url: "/competition/"
+      weight: 1
+      post: "Lern more about the SAE Aero Design Competition"
+      parent: "competition"
+    - identifier: "micro-2025"
+      name: "Micro 2025"
+      url: "/competition/2025-micro"
+      weight: 10
+      parent: "competition"
+    - identifier: "advanced-2025"
+      name: "Advanced 2025"
+      url: "/competition/2025-advanced"
+      weight: 11
+      parent: "competition"
+    - identifier: "micro-2024"
+      name: "Micro 2024"
+      url: "/competition/2024-micro"
+      weight: 12
+      parent: "competition"
+
 
     - identifier: "contact"
       name: "Contact Us"

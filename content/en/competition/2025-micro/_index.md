@@ -8,17 +8,19 @@ description: Overview of 2025 micro class aircraft design
 ## The UOAN-M25
 ### The UOAN-M25, our 2025 SAE Aero Design Micro Class aircraft, is a lightweight, modular platform built for performance and rapid assembly.
 
+|              |          | 
+| ------       | ------   |  
+| Wingspan     | 1.0m     | 
+| Length       | 1.2m     | 
+| Mass (empty) | 1.3kg   |
+
+
 {{< /column >}}
 
 
 
-{{< model-viewer model="/models/plingus.glb" poster="/models/plingus.webp" >}}
-    <button class="hotspot" slot="hotspot-1" 
-            data-position="-0.03752169197374356m 1.3353936826116832m -0.09083890692148743m" 
-            data-normal="-0.6468131457728125m 0.6320924532562153m -0.4267222574368693m" 
-            data-visibility-attribute="visible">
-        <div class="annotation">Plingus</div>
-    </button>
+{{< model-viewer model="/models/micro-2025.glb" poster="/models/micro-2025.webp" camera-orbit="-1913deg 74.94deg 3.033m" field-of-view="30deg" >}}
+   
 
 
 {{< /model-viewer >}}
@@ -35,7 +37,7 @@ description: Overview of 2025 micro class aircraft design
 
 {{< column >}}
 ## Overview
-Featuring a cropped delta wing and T-tail layout, the design is optimized for payload capacity, durability, and ease of manufacturing. The airframe consists of a carbon fiber skeleton housed in a CNC-machined EPS foam body, allowing key components to be transferred between bodies in minutes. Powered by an E-flite Power 10 motor and supported by custom baffles for payload stability, the UOAN-M25 balances aerodynamic efficiency and structural integrity.
+Featuring a cropped delta wing and T-tail layout, the design is optimized for payload capacity, durability, and ease of manufacturing. The airframe consists of a carbon fiber skeleton housed in a CNC-machined EPS foam body, allowing key components to be transferred between bodies in minutes. The single-piece design of the airframe results in high strength and durability. The aircraft is powered by an E-flite Power 10 motor and supported by custom baffles for payload stability.
 {{< /column >}}
 
 {{< galimg src="img/micro-on-the-concrete.jpg" caption="The aircraft displayed on a concrete floor" >}}
@@ -45,18 +47,25 @@ Featuring a cropped delta wing and T-tail layout, the design is optimized for pa
 
 
 {{< columns count=2 >}}
-
-
 {{< column >}}
 ## Construction
-The plane is made from a single sheet of low-density **Dupont™** foam. The Density is further reduced by using a CNC mill to remove material in a way that maintains structural integrity. The shape of the airfoil is also created in this process.
+The plane is made from a single sheet of low-density **Dupont™** Expanded Polystyrene (EPS) foam, with carbon fiber tubing for added rigidity, held together by 3d printed PLA brackets. The Density is further reduced by using a CNC mill to remove material in a way that maintains structural integrity, while also making space for electronics, control servos, and the water payload. The shape of the airfoil is also created in this process.
 {{< /column >}}
 
-{{< galimg src="img/micro-on-the-concrete.jpg" caption="The aircraft displayed on a concrete floor" >}}
+{{< galimg src="img/micro-2025-making-the-airfoil.webp" caption="Constructing the aircraft in the JMTS workshop" >}}
 
 {{< /columns >}}
 
+
+{{< columns count=2 >}}
+{{< column >}}
 ## Airfoil
+
+We chose a cropped delta delta wing to maximize the possible wing surface area with the chosen dimensions, since larger wingspans are penalized in scoring in the SAE Aero Design Micro Class.
+{{< /column >}}
+
+{{< galimg src="img/micro-2025-dorito-cfd.png" caption="A CFD Simulation of the Aircraft" >}}
+{{< /columns >}}
 
 ---
 
