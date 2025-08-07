@@ -16,7 +16,7 @@ description: Overview of 2024 micro class aircraft design
 
 {{< /column >}}
 
-{{< model-viewer model="/models/micro-2024.glb" poster="/models/micro-2024.webp" camera-orbit="-1834deg 67.58deg 1.843m" field-of-view="25.16deg">}}
+{{< model-viewer model="/models/micro-2024.glb" poster="/models/micro-2024.webp" camera-orbit="39.51deg 90.29deg 1.948m" field-of-view="30deg" skybox-image="/models/stem.webp" skybox-height="0.3m" exposure="2">}}
 
 {{< /model-viewer >}}
 

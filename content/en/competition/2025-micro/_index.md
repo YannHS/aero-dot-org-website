@@ -19,7 +19,7 @@ description: Overview of 2025 micro class aircraft design
 
 
 
-{{< model-viewer model="/models/micro-2025.glb" poster="/models/micro-2025.webp" camera-orbit="-1913deg 74.94deg 3.033m" field-of-view="30deg" >}}
+{{< model-viewer model="/models/micro-2025.glb" poster="/models/micro-2025.webp" camera-orbit="-137deg 80.15deg 3.029m" field-of-view="30deg" skybox-image="/models/stem.webp" skybox-height="0.3m" exposure="2" >}}
    
 
 

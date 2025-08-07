@@ -5,10 +5,10 @@
 
 {{ $poster := .Get "poster" | default "" }}
 {{ $camera := .Get "camera-orbit" | default "" }}
-{{ $fov := .Get "field-of-view" | default "" }}
+{{ $fov := .Get "field-of-view" | default "30" }}
 {{ $skybox_image := .Get "skybox-image" | default "" }}
 {{ $skybox_height := .Get "skybox-height" | default "" }}
-
+{{ $exposure := .Get "exposure" | default "1" }}
 
 <!-- Yes, I know that the following is very cringe. Forgive me. -->
 
@@ -109,9 +109,10 @@ body, ::backdrop {
     camera-controls
     tone-mapping="neutral"
     shadow-intensity="1"
-    auto-rotate
+    exposure="{{ $exposure }}"
+    shadow-intensity="2"
+    shadow-softness="0"
     style="width: 100%; height: 100%; border-radius: 5px; min-height: 400px;"
-    {{ if $skybox_image }} skybox-image="{{ $skybox_image }}" {{ end }}
     {{ if $skybox_height }} skybox-height="{{ $skybox_height }}" {{ end }}
   >
     
@@ -139,6 +140,9 @@ function toggle_fullscreen(element) {
 
 function load_model() {
   viewer.setAttribute('src', '{{ $model }}');
+  {{ if $skybox_image }}
+    viewer.setAttribute('skybox-image', '{{ $skybox_image }}');
+  {{ end }}
   if (document.fullscreenEnabled) {
     action_button.innerHTML = `
           <svg viewBox="0 0 24 24">

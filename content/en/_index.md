@@ -2,7 +2,6 @@
 title: uOAT
 description: University of Ottawa Aerospace Team
 showHeader: false
-showSubpages: false
 ---
 
 {{< columns count=2 >}}
@@ -52,8 +51,4 @@ This year, we are aiming to design and build an aircraft for both the *Advanced 
 {{< button link="/competition/2024-micro" text="Learn More" >}}
 {{< /card >}}
 {{< /cards >}}
-
-{{< spacer 20 >}}
-
-
 
