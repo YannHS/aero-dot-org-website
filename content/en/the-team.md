@@ -55,4 +55,17 @@ ydier065@uottawa.ca
 {{< button link="https://dierolf.ca" text="Blog **↗**" >}}
 {{< /card >}}
 <!------------------------------------------------------>
+
+{{< card >}}
+![Nathan Beaulieu](/img/team/Nathan_Beaulieu.png "Nathan Beaulieu")
+### Nathan Beaulieu
+Design 
+
+nbeau092@uottawa.ca 
+
+{{< /card >}}
 {{< /cards >}}
+
+---
+
+Avatars created and rendered with [Mii Creator](https://github.com/datkat21/mii-creator)
