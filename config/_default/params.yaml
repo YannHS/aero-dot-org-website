@@ -10,7 +10,7 @@ custom_css: []
 
 ### default social share image (can also be set per lang) ###
 ### 1200 × 600 ###
-images: ["/social.png"]
+images: ["/social.webp"]
 
 github:
   repo_url: "https://github.com/username/repo/blob/master"
