@@ -36,6 +36,16 @@ bbeck023@uottawa.ca
 {{< /card >}}
 <!------------------------------------------------------>
 {{< card >}}
+![Kaden Graham](/img/team/Kaden_Graham.png "Kaden Graham")
+### Kaden Graham
+Micro Team Lead   
+
+kgrah049@uottawa.ca 
+
+{{< button link="https://www.linkedin.com/in/kadengraham050704" text="Linkedin **↗**" >}}
+{{< /card >}}
+<!------------------------------------------------------>
+{{< card >}}
 ![Finley St-Denis](/img/team/Finley_St-Denis.png "Finley St-Denis")
 ### Finley St-Denis
 Micro & Media 
@@ -43,6 +53,15 @@ Micro & Media
 fstde090@uottawa.ca 
 
 {{< button link="https://www.linkedin.com/in/finley-st-denis/" text="Linkedin **↗**" >}}
+{{< /card >}}
+<!------------------------------------------------------>
+{{< card >}}
+![Nathan Beaulieu](/img/team/Nathan_Beaulieu.png "Nathan Beaulieu")
+### Nathan Beaulieu
+Design 
+
+nbeau092@uottawa.ca 
+
 {{< /card >}}
 <!------------------------------------------------------>
 {{< card >}}
@@ -56,14 +75,6 @@ ydier065@uottawa.ca
 {{< /card >}}
 <!------------------------------------------------------>
 
-{{< card >}}
-![Nathan Beaulieu](/img/team/Nathan_Beaulieu.png "Nathan Beaulieu")
-### Nathan Beaulieu
-Design 
-
-nbeau092@uottawa.ca 
-
-{{< /card >}}
 {{< /cards >}}
 
 ---
