@@ -43,12 +43,6 @@ As [Described by SAE themselves](https://www.sae.org/attend/student-events/about
 {{< spacer 5 >}}
 {{< button link="2025-advanced" text="Learn More" >}}
 {{< /card >}}
-{{< card >}}
-### Micro - 2024
-![](/img/micro-2024-flying.jpg)
-{{< spacer 5 >}}
-{{< button link="2024-micro" text="Learn More" >}}
-{{< /card >}}
 {{< /cards >}}
 {{< spacer 20 >}}
 

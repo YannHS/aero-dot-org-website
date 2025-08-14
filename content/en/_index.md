@@ -44,11 +44,5 @@ This year, we are aiming to design and build an aircraft for both the *Advanced 
 {{< spacer 5 >}}
 {{< button link="/competition/2025-advanced" text="Learn More" >}}
 {{< /card >}}
-{{< card >}}
-### Micro - 2024
-![](/img/micro-2024-flying.jpg)
-{{< spacer 5 >}}
-{{< button link="/competition/2024-micro" text="Learn More" >}}
-{{< /card >}}
 {{< /cards >}}
 

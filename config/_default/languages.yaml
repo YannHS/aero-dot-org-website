@@ -58,11 +58,6 @@ en:
       url: "/competition/2025-advanced"
       weight: 11
       parent: "competition"
-    - identifier: "micro-2024"
-      name: "Micro 2024"
-      url: "/competition/2024-micro"
-      weight: 12
-      parent: "competition"
 
 
     - identifier: "contact"
