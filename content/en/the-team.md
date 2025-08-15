@@ -4,7 +4,15 @@ description: Have a look at our team members.
 ---
 
 {{< cards count=4 >}}
+{{< card >}}
+![Ana J. Barragan ](/img/team/Ana_J_Barragan.png "Ana J. Barragan ")
+### Ana J. Barragan 
+Team Captain 
 
+abarr168@uottawa.ca
+
+{{< button link="https://linkedin.com/in/ana-j-barragan" text="Linkedin **↗**" >}}
+{{< /card >}}
 <!------------------------------------------------------>
 {{< card >}}
 ![Zaid Lateef](/img/team/Zaid_Lateef.png "Zaid Lateef")
