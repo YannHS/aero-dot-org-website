@@ -1,5 +1,5 @@
 ---
-title: uOAT
+title: uOAeronautics
 description: University of Ottawa Aerospace Team
 showHeader: false
 ---
