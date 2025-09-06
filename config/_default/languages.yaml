@@ -155,19 +155,17 @@ fr:
       weight: 2
 
     - identifier: "sponsors"
-      name: "Sponsors"
+      name: "Commanditaires"
       url: "/#"
       weight: 4
     - identifier: "our-sponsors"
-      name: "Nos sponsors"
-      url: "/sponsors/"
+      name: "Nos commanditaires"
+      url: "/commanditaires/"
       weight: 1
-      post: "Voir nos généreux parrains."
       parent: "sponsors"
     - identifier: "sponsor-us"
-      name: "Parrainez-nous"
-      url: "/parrainez-nous/"
+      name: "Commanditez-nous"
+      url: "/commanditez-nous/"
       weight: 2
-      post: "Devenez sponsor."
       parent: "sponsors"
 

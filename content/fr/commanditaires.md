@@ -1,5 +1,5 @@
 ---
-title: Nos sponsors
+title: Nos commanditaires
 description: Les organisations qui nous aident.
 ---
 

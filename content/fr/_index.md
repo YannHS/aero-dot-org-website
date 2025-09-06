@@ -11,7 +11,7 @@ showHeader: false
 # uOttawa AERONAUTICS
 
 {{< intro >}}
-Nous sommes une [équipe JMTS de l'Université d'Ottawa](https://www.uottawa.ca/faculty-engineering/centre-entrepreneurship-engineering-design/facilities/john-mcentrye-team-space) qui construit des avions RC pour le concours [SAE Aero Design](https://www.saeaerodesign.com/).
+Nous sommes une [équipe ECJM de l'Université d'Ottawa](https://www.uottawa.ca/faculty-engineering/centre-entrepreneurship-engineering-design/facilities/john-mcentrye-team-space) qui construit des avions RC pour le concours [SAE Aero Design](https://www.saeaerodesign.com/).
 {{< /intro >}}
 
 {{< /column >}}
@@ -39,7 +39,7 @@ Cette année, nous visons à concevoir et construire un avion pour la classe ava
 {{< button link="concours/2025-micro" text="En savoir plus" >}}
 {{< /card >}}
 {{< card >}}
-### Advanced - 2025
+### Avancée - 2025
 ![](/img/adv-gala.jpg)
 {{< spacer 5 >}}
 {{< button link="concours/2025-avancee" text="En savoir plus" >}}
