@@ -46,7 +46,7 @@ en:
       name: "About the Competition"
       url: "/competition/"
       weight: 1
-      post: "Lern more about the SAE Aero Design Competition"
+      post: "Learn more about the SAE Aero Design Competition"
       parent: "competition"
     - identifier: "micro-2025"
       name: "Micro 2025"
@@ -85,5 +85,89 @@ en:
       url: "/sponsor-us/"
       weight: 2
       post: "Become a sponsor."
+      parent: "sponsors"
+fr:
+  languageName: Français
+  weight: 1
+  contentDir: content/fr/
+  ### copyright (markdown can be used) ###
+  copyright: "Droits d'auteur &copy; {{< current_year >}} Équipe d'aéronautique de l'uOttawa. [Thème Dot Org](https://github.com/cncf/dot-org-hugo-theme) pour Hugo par [CNCF](https://www.cncf.io)."
+  title: "Équipe aérospatiale de l'Université d'Ottawa"
+  email: aeronautics@uottawa.ca
+  address: 150 Louis-Pasteur Private, Ottawa, ON, K1N 9A7 🇨🇦
+  params:
+    description: "Site Description"
+
+    ### calls to action ###
+    main_cta:
+      text: "Rejoignez-nous"
+      link: "/rejoignez-nous/"
+    footer_cta:
+      text: "Rejoignez-nous"
+      link: "/rejoignez-nous/"
+    github_edit: "Edit this page on GitHub"
+  ### example menu showing children ###
+  menu:
+    main:
+    - identifier: "about"
+      name: "À propos"
+      url: "/#"
+      weight: 1
+    - identifier: "our-mission"
+      name: "Notre mission"
+      url: "/mission/"
+      weight: 1
+      post: "Notre objectif d'équipe."
+      parent: "about"
+    - identifier: "meet-the-team"
+      name: "Rencontrer l'équipe"
+      url: "/lequipe/"
+      weight: 2
+      post: "En savoir plus sur qui nous sommes."
+      parent: "about"
+    
+    - identifier: "competition"
+      name: "Concurrence"
+      url: "/concours/"
+      weight: 3
+      post: "See current and past aircraft."
+    - identifier: "competition-about"
+      name: "À propos de la concurrence"
+      url: "/concours/"
+      weight: 1
+      post: "En savoir plus sur le concours SAE Aero Design"
+      parent: "competition"
+    - identifier: "micro-2025"
+      name: "Micro 2025"
+      url: "/concours/2025-micro"
+      weight: 10
+      parent: "competition"
+    - identifier: "advanced-2025"
+      name: "Avancée 2025"
+      url: "/concours/2025-avancee"
+      weight: 11
+      parent: "competition"
+
+
+    - identifier: "contact"
+      name: "Nous contacter"
+      url: "/contact/"
+      weight: 2
+
+    - identifier: "sponsors"
+      name: "Sponsors"
+      url: "/#"
+      weight: 4
+    - identifier: "our-sponsors"
+      name: "Nos sponsors"
+      url: "/sponsors/"
+      weight: 1
+      post: "Voir nos généreux parrains."
+      parent: "sponsors"
+    - identifier: "sponsor-us"
+      name: "Parrainez-nous"
+      url: "/parrainez-nous/"
+      weight: 2
+      post: "Devenez sponsor."
       parent: "sponsors"
 
