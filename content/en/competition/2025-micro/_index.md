@@ -37,7 +37,7 @@ description: Overview of 2025 micro class aircraft design
 
 {{< column >}}
 ## Overview
-Featuring a cropped delta wing and T-tail layout, the design is optimized for payload capacity, durability, and ease of manufacturing. The airframe consists of a carbon fiber skeleton housed in a CNC-machined EPS foam body, allowing key components to be transferred between bodies in minutes. The single-piece design of the airframe results in high strength and durability. The aircraft is powered by an E-flite Power 10 motor and supported by custom baffles for payload stability.
+Featuring a cropped delta wing and T-tail layout, the design is optimized for payload capacity, durability, and ease of manufacturing. The airframe consists of a carbon fiber skeleton housed in a CNC-machined EPS foam body, allowing key components to be transferred between bodies in minutes. The single-piece design of the airframe results in high strength and durability. The aircraft is powered by an E-flite Power 10 motor and supported by custom baffles for payload stability {{< emoji src="/emoji/Blobhaj_Thanks_Wow.png" >}}.
 {{< /column >}}
 
 {{< galimg src="img/micro-on-the-concrete.jpg" caption="The aircraft displayed on a concrete floor" >}}

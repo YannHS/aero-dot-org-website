@@ -6,7 +6,7 @@ showHeader: false
 
 {{< columns count=2 >}}
 {{< column >}}
-# Join Us
+# Join Us {{< emoji src="/emoji/Blobhaj_Golly.png" >}}
 
 Design, make and fly remote controlled aircraft to compete at SAE Aero Design. Learn about aerodynamics and experiment with airfoils and avionics as you develop two competing prototypes. Optimize lift with our STOL Micro aircraft, or work on autonomous hybrid VTOL/STOL flight with our Advanced Aircraft. Join Today!
  

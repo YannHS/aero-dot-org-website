@@ -11,7 +11,7 @@ showHeader: false
 # uOttawa AERONAUTICS
 
 {{< intro >}}
-We are a [uOttawa JMTS team](https://www.uottawa.ca/faculty-engineering/centre-entrepreneurship-engineering-design/facilities/john-mcentrye-team-space) that builds RC aircraft for the [SAE Aero Design](https://www.saeaerodesign.com/) competition.
+We are a [uOttawa JMTS team](https://www.uottawa.ca/faculty-engineering/centre-entrepreneurship-engineering-design/facilities/john-mcentrye-team-space) that builds RC aircraft for the [SAE Aero Design](https://www.saeaerodesign.com/) competition {{< emoji src="/emoji/Blobhaj_Sunglasses.png" >}}.
 {{< /intro >}}
 
 {{< /column >}}

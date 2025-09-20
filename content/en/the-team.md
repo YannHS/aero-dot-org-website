@@ -87,4 +87,4 @@ ydier065@uottawa.ca
 
 ---
 
-Avatars created and rendered with [Mii Creator](https://github.com/datkat21/mii-creator)
+Avatars created and rendered with [Mii Creator](https://github.com/datkat21/mii-creator) {{< emoji src="/emoji/Blobhaj_Heart.png" >}}

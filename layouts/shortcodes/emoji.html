@@ -1,0 +1,1 @@
+{{ $src := resources.GetMatch (.Get "src") }}{{ $emoji := $src.Resize "x64 q10 webp icon" }}<img src="{{ $emoji.Permalink }}" style="height: 1em;">

@@ -7,7 +7,7 @@ showHeader: false
 {{< columns count=2 >}}
 {{< column >}}
 # Competition
-### The uOttawa Aerospace Team is a *competitive team*, meaning, every year, we aim to compete head-to-head with other Universities' aircraft.
+### The uOttawa Aerospace Team is a *competitive team*, meaning, every year, we aim to compete head-to-head with other Universities' aircraft {{< emoji src="/emoji/Blobhaj_Sir_Happy.png" >}}.
 {{< /column >}}
 {{< galimg src="/img/comp-2025-teams.jpg" caption="Many different Canadian teams attend the competitions" >}}
 {{< /columns >}}
@@ -15,7 +15,7 @@ showHeader: false
 {{< columns count=2 >}}
 {{< galimg src="/img/micro-2025-in-line.jpg" caption="Waiting in line at the 2025 SAE Aero Design East Competition" >}}
 {{< column >}}
-Both our Micro Class team and our Advanced Class team attended the SAE Aero Design Competition East in Dallas, Texas, in May of 2025. While the focus of SAE Aero Design is to design an original aircraft that meets the design requirements as best as possible, Attending competition events are a great way to validate our own design, gain inspiration from other team's original designs, and build connections with like-minded people from both industy and other Universities.
+Both our Micro Class team and our Advanced Class team attended the SAE Aero Design Competition East in Dallas, Texas, in May of 2025. While the focus of SAE Aero Design is to design an original aircraft that meets the design requirements as best as possible, Attending competition events are a great way to validate our own design {{< emoji src="/emoji/Blobhaj_Read_Octopus.png">}}, gain inspiration from other team's original designs, and build connections with like-minded people from both industy and other Universities {{< emoji src="/emoji/Blobhaj_Rocket_Hug.png" >}}.
 
 As [Described by SAE themselves](https://www.sae.org/attend/student-events/about-aero-design):
 

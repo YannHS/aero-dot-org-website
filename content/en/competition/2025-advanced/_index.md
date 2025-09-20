@@ -29,7 +29,7 @@ description: Overview of 2025 micro class aircraft design
 {{< columns count=2 >}}
 
 {{< column >}}
-Built around a modular carbon fibre and 3D-printed frame, the aircraft features a 1.2 m wingspan with a Clark-Y airfoil for aerodynamic efficiency. Powered by three lightweight T-Motor MN2806 units and vectored front motors for vertical lift, it balances thrust and weight under strict competition limits. A Pixhawk 6C flight controller running ArduPilot handles navigation and stability, supported by a Raspberry Pi CM4 for onboard computer vision and RTK-enabled GNSS for precise positioning. The design emphasizes reliability, modularity, and repairability, offering a strong foundation for mission success in the SAE Advanced Class competition.
+Built around a modular carbon fibre and 3D-printed frame, the aircraft features a 1.2 m wingspan with a Clark-Y airfoil for aerodynamic efficiency. Powered by three lightweight T-Motor MN2806 units and vectored front motors for vertical lift, it balances thrust and weight under strict competition limits. A Pixhawk 6C flight controller running ArduPilot handles navigation and stability, supported by a Raspberry Pi CM4 for onboard computer vision and RTK-enabled GNSS for precise positioning. The design emphasizes reliability, modularity, and repairability, offering a strong foundation for mission success in the SAE Advanced Class competition {{< emoji src="/emoji/Blobhaj_Thanks_Wow.png" >}}.
 {{< /column >}}
 
 {{< galimg src="img/adv-2025-longshot-glamour.jpg" caption="Project Longshot, assembled for a glamour shot" >}}
