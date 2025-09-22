@@ -21,7 +21,7 @@ Pilot
 
 zlate012@uottawa.ca 
 
-{{< button link="https://www.linkedin.com/in/zaid-lateef-070306302 " text="Linkedin **↗**" >}}
+{{< button link="https://www.linkedin.com/in/zaid-lateef-070306302" text="Linkedin **↗**" >}}
 {{< /card >}}
 <!------------------------------------------------------>
 {{< card >}}
@@ -40,7 +40,7 @@ Little bit of this little bit of that.
 
 bbeck023@uottawa.ca 
 
-{{< button link="https://www.linkedin.com/in/benjamin-vj-beck " text="Linkedin **↗**" >}}
+{{< button link="https://www.linkedin.com/in/benjamin-vj-beck" text="Linkedin **↗**" >}}
 {{< /card >}}
 <!------------------------------------------------------>
 {{< card >}}
