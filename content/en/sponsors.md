@@ -37,4 +37,4 @@ description: The Organizations who help us along.
  
   [**QGroundControl**](https://qgroundcontrol.com/) - Awesome ground control software
 
-<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><br>BlobHaj {{< emoji src="/emoji/Blobhaj_Default.png" >}}</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="Heatherhorns.com" property="cc:attributionName" rel="cc:attributionURL">Heatherhorns</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><br>BlobHaj {{< emoji src="/emoji/Blobhaj_Default.png" >}}</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://Heatherhorns.com" property="cc:attributionName" rel="cc:attributionURL">Heatherhorns</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
