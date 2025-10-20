@@ -23,6 +23,10 @@ description: Les organisations qui nous aident.
 [ ![Sponsor](/img/sponsors/eef.svg) ](https://www.uottawa.ca/faculty-engineering/student-experience/funding-student-initiatives)
 {{< /card >}}
 
+{{< card >}}
+[ ![Sponsor](/img/sponsors/rhystone.svg) ](https://www.rhystone.com/)
+{{< /card >}}
+
 {{< /cards >}}
 
  ---
