@@ -27,6 +27,11 @@ description: Les organisations qui nous aident.
 [ ![Sponsor](/img/sponsors/rhystone.svg) ](https://www.rhystone.com/)
 {{< /card >}}
 
+{{< card >}}
+[ ![Sponsor](/img/sponsors/tmotor.svg.svg) ](https://store.tmotor.com/)
+{{< /card >}}
+
+
 {{< /cards >}}
 
  ---
