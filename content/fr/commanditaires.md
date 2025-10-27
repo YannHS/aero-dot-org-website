@@ -28,7 +28,7 @@ description: Les organisations qui nous aident.
 {{< /card >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/tmotor.svg.svg) ](https://store.tmotor.com/)
+[ ![Sponsor](/img/sponsors/tmotor.svg) ](https://store.tmotor.com/)
 {{< /card >}}
 
 
