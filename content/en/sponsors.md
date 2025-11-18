@@ -8,27 +8,31 @@ description: The Organizations who help us along.
 {{< cards count=4 >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/dupont.svg) ](https://www.dupont.ca/)
+[ ![dupont logo](/img/sponsors/dupont.svg) ](https://www.dupont.ca/)
 {{< /card >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/hts.svg) ](https://www.hts.com/)
+[ ![HTS logo](/img/sponsors/hts.svg) ](https://www.hts.com/)
 {{< /card >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/ceed.svg) ](https://ceed-uottawa.ca/)
+[ ![CEED of uOttawa logo](/img/sponsors/ceed.svg) ](https://ceed-uottawa.ca/)
 {{< /card >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/eef.svg) ](https://www.uottawa.ca/faculty-engineering/student-experience/funding-student-initiatives)
+[ ![Engineering Endowment Fund logo](/img/sponsors/eef.svg) ](https://www.uottawa.ca/faculty-engineering/student-experience/funding-student-initiatives)
 {{< /card >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/rhystone.svg) ](https://www.rhystone.com/)
+[ ![rhystone logo](/img/sponsors/rhystone.svg) ](https://www.rhystone.com/)
 {{< /card >}}
 
 {{< card >}}
-[ ![Sponsor](/img/sponsors/tmotor.svg) ](https://store.tmotor.com/)
+[ ![TMotor logo](/img/sponsors/tmotor.svg) ](https://store.tmotor.com/)
+{{< /card >}}
+
+{{< card >}}
+[ ![Ansys, part of Synopsys logo](/img/sponsors/ansys.svg) ](https://www.ansys.com/)
 {{< /card >}}
 
 
