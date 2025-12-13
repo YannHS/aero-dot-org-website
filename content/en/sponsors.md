@@ -35,6 +35,10 @@ description: The Organizations who help us along.
 [ ![Ansys, part of Synopsys logo](/img/sponsors/ansys.svg) ](https://www.ansys.com/)
 {{< /card >}}
 
+{{< card >}}
+[ ![Winghelper logo](/img/sponsors/winghelper.svg) ](https://www.winghelper.com/default/)
+{{< /card >}}
+
 
 {{< /cards >}}
 
