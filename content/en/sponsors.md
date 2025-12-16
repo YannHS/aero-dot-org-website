@@ -39,6 +39,10 @@ description: The Organizations who help us along.
 [ ![Winghelper logo](/img/sponsors/winghelper.svg) ](https://www.winghelper.com/default/)
 {{< /card >}}
 
+{{< card >}}
+[ ![Matlab logo](/img/sponsors/matlab.svg) ](https://www.mathworks.com/products/matlab.html)
+{{< /card >}}
+
 
 {{< /cards >}}
 
