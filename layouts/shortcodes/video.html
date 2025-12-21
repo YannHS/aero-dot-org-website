@@ -1,0 +1,24 @@
+{{- $mp4source := $.Get "mp4" -}}
+{{- $webmsource := $.Get "webm" -}}
+
+{{- $mp4video := or ($.Page.Resources.GetMatch $mp4source) (resources.GetMatch $mp4source) -}}
+{{- $webmvideo := or ($.Page.Resources.GetMatch $webmsource) (resources.GetMatch $webmsource) -}}
+
+{{- $poster := $.Get "poster" -}}
+
+
+
+<video controls  style="border-radius: 5px; width: 100%;">
+  <source 
+  src="{{ with $webmvideo }}{{ .RelPermalink }}{{ else }}{{ $webmsource }}{{ end }}" 
+  type="video/webm" />
+
+  <source 
+  src="{{ with $mp4video }}{{ .RelPermalink }}{{ else }}{{ $mp4source }}{{ end }}" 
+  type="video/mp4" /> 
+  <p>Download the</p> 
+  <a href="{{ with $webmvideo }}{{ .RelPermalink }}{{ else }}{{ $webmsource }}{{ end }}">WEBM</a> 
+  <p>or</p>
+  <a href="{{ with $mp4video }}{{ .RelPermalink }}{{ else }}{{ $mp4source }}{{ end }}">MP4</a> 
+  <p>video.</p>
+</video>
