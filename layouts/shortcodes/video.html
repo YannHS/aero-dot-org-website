@@ -8,7 +8,7 @@
 
 
 
-<video controls  style="border-radius: 5px; width: 100%;">
+<video controls  style="border-radius: 5px; width: 100%;" preload="metadata">
   <source 
   src="{{ with $webmvideo }}{{ .RelPermalink }}{{ else }}{{ $webmsource }}{{ end }}" 
   type="video/webm" />
