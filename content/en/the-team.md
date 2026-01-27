@@ -82,6 +82,26 @@ ydier065@uottawa.ca
 {{< button link="https://dierolf.ca" text="Blog **↗**" >}}
 {{< /card >}}
 <!------------------------------------------------------>
+{{< card >}}
+![Adonai Tshibasu](/img/team/Adonai_Tshibasu.png "Adonai Tshibasu")
+### Adonai Tshibasu
+Micro fuselage Lead
+
+atshi095@uottawa.ca
+
+{{< button link="https://www.linkedin.com/in/adonai-tshibasu13" text="Linkedin **↗**" >}}
+{{< /card >}}
+<!------------------------------------------------------>
+{{< card >}}
+![Taha El Faghloumi](/img/team/Taha_El_Faghloumi.png "Taha El Faghloumi")
+### Taha El Faghloumi
+Micro CFD Lead
+
+telfa036@uottawa.ca
+
+{{< button link="https://www.linkedin.com/in/taha-el-faghloumi-586795301" text="Linkedin **↗**" >}}
+{{< /card >}}
+<!------------------------------------------------------>
 
 {{< /cards >}}
 
