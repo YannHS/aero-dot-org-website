@@ -48,20 +48,30 @@ en:
       weight: 1
       post: "Learn more about the SAE Aero Design Competition"
       parent: "competition"
+    - identifier: "micro-2026"
+      name: "2026 Micro"
+      url: "/competition/2026-micro"
+      weight: 8
+      parent: "competition"
+    - identifier: "advanced-2026"
+      name: "2026 Advanced"
+      url: "/competition/2026-advanced"
+      weight: 9
+      parent: "competition"
     - identifier: "micro-2025"
-      name: "Micro 2025"
+      name: "2025 Micro"
       url: "/competition/2025-micro"
       weight: 10
       parent: "competition"
     - identifier: "advanced-2025"
-      name: "Advanced 2025"
+      name: "2025 Advanced"
       url: "/competition/2025-advanced"
       weight: 11
       parent: "competition"
 
 
     - identifier: "contact"
-      name: "Contact Us"
+      name: "Contact"
       url: "/contact/"
       weight: 2
       

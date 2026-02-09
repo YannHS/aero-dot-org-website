@@ -17,7 +17,7 @@ We are a [uOttawa JMTS team](https://www.uottawa.ca/faculty-engineering/centre-e
 {{< /column >}}
 
 
-{{< galimg src="/img/working-on-micro-at-comp.jpg" caption="Working on the Micro Class 2025 plane">}}
+{{< galimg src="/img/winter-team-photo.jpg" caption="Team Photo before a test-flight">}}
 
 
 {{< /columns >}}
@@ -33,16 +33,29 @@ This year, we are aiming to design and build an aircraft for both the *Advanced 
 
 {{< cards count=3 >}}
 {{< card >}}
+### Advanced - 2026
+![](/img/adv-2026-render-front.png)
+{{< spacer 5 >}}
+{{< button link="competition/2026-advanced" text="Learn More" >}}
+{{< /card >}}
+{{< card >}}
+### Micro - 2026
+![](/img/micro-2026-sitting-on-snow.jpg)
+{{< spacer 5 >}}
+{{< button link="competition/2026-micro" text="Learn More" >}}
+{{< /card >}}
+{{< card >}}
 ### Micro - 2025
 ![](/img/micro-on-the-concrete.jpg)
 {{< spacer 5 >}}
-{{< button link="/competition/2025-micro" text="Learn More" >}}
+{{< button link="competition/2025-micro" text="Learn More" >}}
 {{< /card >}}
 {{< card >}}
 ### Advanced - 2025
 ![](/img/adv-gala.jpg)
 {{< spacer 5 >}}
-{{< button link="/competition/2025-advanced" text="Learn More" >}}
+{{< button link="competition/2025-advanced" text="Learn More" >}}
 {{< /card >}}
 {{< /cards >}}
+{{< spacer 20 >}}
 
