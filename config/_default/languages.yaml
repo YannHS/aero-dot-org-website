@@ -17,6 +17,8 @@ en:
       text: "Join"
       link: "/join/"
     github_edit: "Edit this page on GitHub"
+    land_acknowledgement: "UOAeronautics at the University of Ottawa acknowledges and respects the Omamìwìnini Anishnàbeg (Algonquin), the traditional guardians of this land. We recognize their longstanding relationship with this unceded territory and honor all Indigenous peoples who call Ottawa home. We acknowledge the traditional knowledge keepers, both young and old, and celebrate their contributions to science, technology, engineering, and mathematics. To learn more, [we invite you to read about the University of Ottawa's Indigenous information.](https://www.uottawa.ca/about-us/indigenous)"
+
   ### example menu showing children ###
   menu:
     main:
@@ -116,6 +118,7 @@ fr:
       text: "Rejoignez-nous"
       link: "/rejoignez-nous/"
     github_edit: "Edit this page on GitHub"
+    land_acknowledgement: "UOAeronautics à l'Université d'Ottawa reconnaît et respecte les Omamìwìnini Anishnàbeg (Algonquins), gardiens traditionnels de ce territoire. Nous reconnaissons leur relation de longue date avec ce territoire non cédé et rendons hommage à tous les peuples autochtones qui considèrent Ottawa comme leur foyer. Nous rendons hommage aux gardiens du savoir traditionnel, jeunes et moins jeunes, et célébrons leur contribution aux sciences, à la technologie, à l'ingénierie et aux mathématiques. Pour en savoir plus, [nous vous invitons à consulter les informations sur les Autochtones de l'Université d'Ottawa.](https://www.uottawa.ca/about-us/indigenous)"
   ### example menu showing children ###
   menu:
     main:
