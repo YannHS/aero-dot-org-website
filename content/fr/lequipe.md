@@ -25,8 +25,8 @@ zlate012@uottawa.ca
 {{< /card >}}
 <!------------------------------------------------------>
 {{< card >}}
-![McQueen Zhao](/img/team/McQueen_Zhao.png "McQueen Zhao")
-### McQueen Zhao 
+![Stelle Zhao](/img/team/Stelle_Zhao.png "Stelle Zhao")
+### Stelle Zhao 
 Leader en électronique avancée
 
 czhao052@uottawa.ca 
