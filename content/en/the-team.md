@@ -73,8 +73,8 @@ nbeau092@uottawa.ca
 {{< /card >}}
 <!------------------------------------------------------>
 {{< card >}}
-![Yan](/img/team/Yan.png "Yan")
-### Yan
+![Maya](/img/team/Maya.png "Maya")
+### Maya
 Programmer and Electronics 
 
 ydier065@uottawa.ca 
