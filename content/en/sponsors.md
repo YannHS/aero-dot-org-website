@@ -43,6 +43,10 @@ description: The Organizations who help us along.
 [ ![Matlab logo](/img/sponsors/matlab.svg) ](https://www.mathworks.com/products/matlab.html)
 {{< /card >}}
 
+{{< card >}}
+[ ![Solidworks logo](/img/sponsors/solidworks.svg) ](https://www.solidworks.com/)
+{{< /card >}}
+
 
 {{< /cards >}}
 
