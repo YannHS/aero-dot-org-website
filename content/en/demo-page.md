@@ -260,13 +260,13 @@ Coming soon: Advanced image handling, lazy loading, etc.
 
 ## Gist
 
-{{< gist thinhong 218cb565018eab7db50aa7cfd53c16c6 >}}
+nope
 
 ## Tweets
 
 Embedding tweets like this loads lots of tracking scripts and is not recommended. Use a screenshot of the tweet and link the image to the real tweet. 
 
-{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
+{{< x user="SanDiegoZoo" id="1453110110599868418" >}}
 
 ## Iframe
 
