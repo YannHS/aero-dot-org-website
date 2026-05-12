@@ -21,14 +21,14 @@ performance.
 {{< /column >}}
 
 
-{{< galimg src="/img/adv-2026-render-front.png" caption="Holding the aircraft before a testflight" >}}
+{{< galimg src="/img/adv-2026-cad.png" caption="our CAD model of Starling" >}}
 
 
 {{< /columns >}}
 ## Project Overview
 
 {{< columns count=2 >}}
-{{< galimg src="/img/adv-2026-eeping.jpg" caption="Placeholder" >}}
+{{< galimg src="/img/adv-2026-eeping.jpg" caption="Starling on some grass the first morning of the competition" >}}
 {{< column >}}
 Following the development of Project Longshot, this year’s focus was to refine and simplify the overall system while
 improving real-world performance. Rather than introducing unnecessary complexity, the design emphasizes consistency, reliability, and
@@ -54,11 +54,11 @@ the system has been simplified to reduce mechanical complexity and improve overa
 
 The design prioritizes efficient conventional flight while maintaining controlled and predictable VTOL transitions.
 {{< /column >}}
-{{< galimg src="/img/placeholder.png" caption="Placeholder" >}}
+{{< galimg src="/img/adv-2026-tilt.png" caption="The tilt mechanism used to tilt the rotors" >}}
 {{< /columns >}}
 
 {{< columns count=2 >}}
-{{< galimg src="/img/placeholder.png" caption="Placeholder" >}}
+{{< galimg src="/img/adv-2026-wing.png" caption="Starling's wing in CAD" >}}
 {{< column >}}
 ### Wing Design
 
@@ -83,7 +83,7 @@ This results in improved structural rigidity, better load distribution, and clea
 {{< /columns >}}
 
 {{< columns count=2 >}}
-{{< galimg src="/img/adv-2026-gcs.jpg" caption="Placeholder" >}}
+{{< galimg src="/img/adv-2026-gcs.jpg" caption="Stelle operating a ground control station laptop" >}}
 {{< column >}}
 ### Avionics and Control
 
@@ -102,7 +102,7 @@ Starling includes a custom payload interaction system designed to support missio
 the previous iteration, current development focuses on improving integration, consistency, and overall system reliability.
 This subsystem remains an active area of development, with ongoing work aimed at refining performance and expanding capability.
 {{< /column >}}
-{{< galimg src="/img/placeholder.png" caption="Placeholder" >}}
+{{< galimg src="/img/adv-2026-payload.jpg" caption="A prototype autonomous payload robot" >}}
 {{< /columns >}}
 
 ## Design Philosophy
@@ -126,11 +126,13 @@ on achieving more consistent takeoff and landing behavior, improved stability in
 The iterative testing process played a key role in refining the aircraft, allowing design decisions to be validated under real operating
 conditions.
 {{< /column >}}
-{{< galimg src="/img/placeholder.png" caption="Placeholder" >}}
+{{< video mp4="https://m.uottawa.xyz/video/2026-03-01-h264.mp4" webm="https://m.uottawa.xyz/video/2026-03-01-vp9.webm"  >}}
 {{< /columns >}}
 
 ## Project Gallery
 Design, testing, and iteration of the Starling platform
+
+{{< gallery >}}
 
 ## Future Work
 Future development of Starling will focus on three primary areas: weight reduction, autonomy, and payload capability.
