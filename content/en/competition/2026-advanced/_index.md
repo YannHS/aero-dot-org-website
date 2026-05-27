@@ -21,7 +21,7 @@ performance.
 {{< /column >}}
 
 
-{{< galimg src="/img/adv-2026-cad.png" caption="our CAD model of Starling" >}}
+{{< video mp4="https://m.uottawa.xyz/video/adv-2026-phonkedit-h264.mp4" webm="https://m.uottawa.xyz/video/adv-2026-phonkedit-vp9.webm"  >}}
 
 
 {{< /columns >}}
