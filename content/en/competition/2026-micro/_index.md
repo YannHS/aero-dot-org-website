@@ -17,10 +17,14 @@ Built around a lightweight twin-boom configuration, the platform prioritizes pay
 design reflects a highly optimized balance between aerodynamic performance, structural simplicity, and manufacturability, with every
 design decision driven by maximizing flight score.
 {{< /column >}}
-{{< galimg src="img/micro-2026-sitting-on-snow.jpg" caption="The aircraft resting in the snow before a testflight" >}}
+{{< model-viewer model="/models/micro-2026.glb" poster="/models/micro-2026.webp" camera-orbit="-49.25deg 67.24deg 2.703m" field-of-view="30deg" skybox-image="/models/stem.webp" skybox-height="0.3m" exposure="2" >}}
+{{< /model-viewer >}}
 {{< /columns >}}
 
 ## Project Overview
+{{< columns count=2 >}}
+{{< galimg src="img/micro-2026-sitting-on-snow.jpg" caption="The aircraft resting in the snow before a testflight" >}}
+{{< column >}}
 The SG32C was designed with a single objective: maximize competition score. Unlike typical designs that prioritize minimal
 wingspan or use a delta configuration, this aircraft is intentionally optimized for payload capacity and takeoff performance.
 
@@ -34,6 +38,8 @@ Key Focus Areas:
 * Maximizing payload capacity
 * Minimizing empty weight
 * Achieving short takeoff distance
+{{< /column >}}
+{{< /columns >}}
 
 ### Payload System
 {{< columns count=2 >}}
